@@ -128,22 +128,22 @@ export const Contact = (props) => {
                 <p className='socialjoin'>Join us on social media</p>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.Facebook : '/'} target="_blank">
+                    <a href={props.data ? props.data.Facebook : '/'} target="_blank" rel="noreferrer">
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.Instagram : '/'} target="_blank">
+                    <a href={props.data ? props.data.Instagram : '/'} target="_blank" rel="noreferrer">
                       <i className='fa fa-Instagram'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.Twitter : '/'} target="_blank">
+                    <a href={props.data ? props.data.Twitter : '/'} target="_blank" rel="noreferrer">
                       <i className='fa fa-twitter'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.LinkedIn : '/'} target="_blank">
+                    <a href={props.data ? props.data.LinkedIn : '/'} target="_blank" rel="noreferrer">
                       <i className='fa fa-LinkedIn'></i>
                     </a>
                   </li>
