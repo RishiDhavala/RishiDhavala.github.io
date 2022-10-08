@@ -69,8 +69,6 @@ ol {
 ul,
 ol {
   padding: 0;
-  webkit-padding: 0;
-  moz-padding: 0;
 }
 
 hr {
@@ -738,11 +736,4 @@ label {
   font-size: large;
   font-weight: bold;
   font-family: "Raleway", sans-serif;
-}
-
-#navbar_icon img{
-    width: 5px;
-    margin-top: 10px;
-    background-color: #fff;
-    border-right: 0;
 }
